@@ -3,7 +3,7 @@ Ofront
 
 Ofront is an Oberon-2 to C translator written in Oberon-2.
 It supports both ANSI and K&R style C and supports cross
-translation to arbitrary target platforms. ofront includes
+translation to arbitrary target platforms. Ofront includes
 a runtime system including an automatic garbage collector
 for Linux, the Oberon V4 system, and a set of command-line
 tools.
@@ -28,7 +28,7 @@ are comprised of
   and write it as plain text to standard out
 
 [ocl](ocl.html)
-: The Ofront compiler which wraps `ofront`, and your system C compiler 
+: The Ofront compiler which wraps `Ofront`, and your system C compiler 
   and linker to produce compiled programs and shared libraries.
 
 [ofront](ofront.html)
