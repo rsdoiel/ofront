@@ -42,7 +42,7 @@ are comprised of
 Source Code
 -----------
 
-NOTE: See [INSTALL](INSTALL.txt) for details on installing 
+NOTE: See [INSTALL](INSTALL.md) for details on installing 
 Ofront 1.4 and compiling Ofront from scratch.
 
 The directory structure of the project ofront is as follows:
