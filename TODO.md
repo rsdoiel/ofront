@@ -4,35 +4,37 @@ To do
 Next
 ----
 
-+ [ ] Find license on www.software-templ.com and add to repository
-+ [ ] Copyedit the README to better reflect what is contained in the repository
-+ [ ] Add top level docs for each CLI (expand on man pages)
-+ [ ] Add common text files to repository, e.g. INSTALL.txt
++ [x] Find license on www.software-templ.com and add to repository
++ [x] Add INSTALL.txt
++ [ ] Convert man pages into markdown include in root of repo
 + [ ] Update makefiles to support install with prefix path
-+ [ ] Update makefiles to generate a bootstrap system for ofront
-+ [ ] Modify Oberon V4 environment to start up with getting started guide (e.g. like A2 and Native Oberon)
-+ [ ] Document how things work
-    + [ ] Convert (from man) and copyedit cli docs
-    + [ ] Convert and copyedit Getting started guide plain text and HTML (check/egg problem of learning Oberon)
-    + [ ] Write up dependencies to compile ofront
++ [ ] Update makefiles to generate a bootstrap system for Ofront
++ [ ] Find/Write a Getting started guide for V4 environment, add to repository
++ [ ] Expand documentation
+    + [ ] Convert (from man) and copy edit cli docs as plain text and HTML (e.g. gh-pages)
+    + [ ] Convert and copy edit Getting started guide plain text and HTML (check/egg problem of learning Oberon)
+    + [ ] Write up dependencies to compile Ofront
     + [ ] Write up steps of how to recompile existing repository from scratch
-        + [ ] Installing the precompiled ofront
+        + [ ] Installing the compiled Ofront
         + [ ] Clone and recompile Ofront from scratch
         + [ ] Install into home directory
     + [ ] Setup Ofront's V4 environment
++ [ ] Copy edit the README to better reflect what is contained in the repository
 
 Someday, Maybe
 --------------
 
-+ [ ] Setup a "WORK" directory structure like A2 under Linux
-+ [ ] Extend V4 to have better integration with POSIX file system
-+ [ ] Extend V4 to support saving texts as UTF-8 plain text
-+ [ ] Improve, implement accessibility options for V4 environment
++ [ ] Modify Oberon V4 start up to include getting started guide in edit track
+    + [ ] Document how to get rid of the getting started guide
++ [ ] Add a root repository Makefile that will detect system and install things.
++ [ ] Extend V4 Edit to support saving texts as UTF-8 plain text
++ [ ] Improve and enable accessibility options for V4 environment easily
+    + [ ] Figure out how to enable use of [Atkinson Hyper Ledgible](https://brailleinstitute.org/freefont) font in V4 environment 
+    + [ ] Figure out how to enable use of [Open Dyslexic](https://opendyslexic.org/) font in V4 environment
     + [ ] Key bindings
-    + [ ] See if there are options for computer voice descriptions
-+ [ ] Explore porting V4 oberon from X11 to SDL 2 for easier porting to macOS and Windows
+    + [ ] Explore how to make available voice descriptions in host OS's
++ [ ] Explore porting V4 Oberon from X11 to SDL 2 for easier porting to macOS and Windows
 + [ ] Write up a bootstrap process for porting to another platform, e.g. x86-64
 + [ ] Write up cross compile example
-+ [ ] Attempt to port from linux i386 to x86_64
-+ [ ] Write up how to use other fonts in the V4 environment, e.g. Atkison Hyper Ledgible font
++ [ ] Attempt to port from Linux i386 to x86_64
 + [ ] Port Oberon-7 compiler to V4
