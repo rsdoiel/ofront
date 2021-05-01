@@ -20,22 +20,22 @@ version to recompile them. The compiled versions provided
 at [software-templ.com](https://www.software-templ.com/shareware.html)
 are comprised of 
 
-[oberon](oberon.html)
+[oberon](oberon.md)
 : A V4 Oberon environment for Linux and X11
 
-[ocat](ocat.html)
+[ocat](ocat.md)
 : A program that will read a V4 formatted Text file 
   and write it as plain text to standard out
 
-[ocl](ocl.html)
+[ocl](ocl.md)
 : The Ofront compiler which wraps `Ofront`, and your system C compiler 
   and linker to produce compiled programs and shared libraries.
 
-[ofront](ofront.html)
+[ofront](ofront.md)
 : Ofront translate Oberon-2 into C for compilation with your system's C
   compiler.
 
-[showdef](showdef.html)
+[showdef](showdef.md)
 : This will read a symbol file and display a human readable description
 
 
