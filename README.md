@@ -10,7 +10,40 @@ tools.
 
 Download Ofront 1.4 for Linux/i386 or Raspbian from
 
-    http://www.software-templ.com/shareware.html.
+    https://www.software-templ.com/shareware.html.
+
+Programs
+--------
+
+The Ofront tools are self hosting meaning you need a working
+version to recompile them. The compiled versions provided
+at [software-templ.com](https://www.software-templ.com/shareware.html)
+are comprised of 
+
+[oberon](oberon.html)
+: A V4 Oberon environment for Linux and X11
+
+[ocat](ocat.html)
+: A program that will read a V4 formatted Text file 
+  and write it as plain text to standard out
+
+[ocl](ocl.html)
+: The Ofront compiler which wraps `ofront`, and your system C compiler 
+  and linker to produce compiled programs and shared libraries.
+
+[ofront](ofront.html)
+: Ofront translate Oberon-2 into C for compilation with your system's C
+  compiler.
+
+[showdef](showdef.html)
+: This will read a symbol file and display a human readable description
+
+
+Source Code
+-----------
+
+NOTE: See [INSTALL](INSTALL.txt) for details on installing 
+Ofront 1.4 and compiling Ofront from scratch.
 
 The directory structure of the project ofront is as follows:
 
@@ -56,4 +89,10 @@ is in many aspects similar to linux386.  One
 difference is the added module WiringPi, which
 provides an interface to the popular
 libwiringPi.so for the Raspberry Pi.
+
+LICENSE
+-------
+
+Joseph Templ released Ofront under a FreeBSD style
+license in 2012. See [LICENSE](LICENSE) for details.
 
