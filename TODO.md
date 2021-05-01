@@ -6,10 +6,11 @@ Next
 
 + [x] Find license on www.software-templ.com and add to repository
 + [x] Add INSTALL.txt
-+ [ ] Convert man pages into markdown include in root of repo
++ [x] Convert man pages into markdown include in root of repo
 + [ ] Update makefiles to support install with prefix path
 + [ ] Update makefiles to generate a bootstrap system for Ofront
-+ [ ] Find/Write a Getting started guide for V4 environment, add to repository
++ [ ] Find/Rewrite a Getting started guide for V4 environment, add to repository
+      in Markdown, Texts formats
 + [ ] Expand documentation
     + [ ] Convert (from man) and copy edit cli docs as plain text and HTML (e.g. gh-pages)
     + [ ] Convert and copy edit Getting started guide plain text and HTML (check/egg problem of learning Oberon)
