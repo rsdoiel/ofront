@@ -1,0 +1,12 @@
+Fork Notes
+----------
+
+This is a fork of jtempl's ofront repository in GitHub.
+I'm trying to improve my oberon by playing with existing
+Oberon code so I better understand the dialects and changes
+on the way with Wirth's Oberon-7. If you're looking for the
+real Ofront go to https://github.com/jtempl/ofront or look
+at the website https://www.software-templ.com under 
+"shareware".  Ofront is licensed with an Open Source
+license. RSD, 2021-05-01
+
